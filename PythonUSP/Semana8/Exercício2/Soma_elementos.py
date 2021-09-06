@@ -6,6 +6,6 @@ def soma_elementos(lista):
     soma = sum([])
     for i in lista:
         soma += i
-    print(soma)
+    return soma
 
 soma_elementos ([1, 2, 3, 6])
