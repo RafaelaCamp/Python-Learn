@@ -17,6 +17,6 @@ def remove_repetidos(lista): #def lista antes e colocar sort() apenas vai deixar
         if i not in norepeat:
             norepeat.append(i)
     norepeat.sort()
-    print(norepeat)
+    return norepeat
 
 remove_repetidos([2, 2 , 1, 3])
